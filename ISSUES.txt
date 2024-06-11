@@ -1,0 +1,8 @@
+
+ISSUES
+--------------------------------------------------------------------------------
+
+1.	Code crashes when all paths from inside a while loop exit via a break,
+	then there is no back-edge for while loop - in this case condition of
+	while loop (using terminator) is empty/NULL causing crash.
+

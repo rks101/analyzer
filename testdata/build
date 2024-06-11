@@ -1,0 +1,4 @@
+file=$1
+echo "building $1..."
+gcc -o $file "$file".c
+
